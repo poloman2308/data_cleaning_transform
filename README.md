@@ -130,6 +130,6 @@ docker compose up -d
 
 ## 👨‍💻 Author
 
-Derek Acevedo
+**Derek Acevedo**
 Data Engineer | SQL Enthusiast | Open Source Contributor
 [GitHub](https://www.github.com/poloman2308) | [Linkedin](https://www.linkedin.com/in/derekacevedo86)
