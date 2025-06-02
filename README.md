@@ -64,10 +64,10 @@ docker compose up -d
 ```
 
 🔹 2. Connect with DBeaver
--  * Host: localhost
--  * Port: 5432
-+  - Host: localhost
-+  - Port: 5432
+  * Host: localhost
+  * Port: 5432
+  - Host: localhost
+  - Port: 5432
 
 🔹 3. Import CSV into Staging Table
   * Use DBeaver's "Import Data" to load customers_raw.csv into staging.customers_raw.
