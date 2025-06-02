@@ -34,7 +34,7 @@ flowchart LR
 ---
 
 ## 📁 Project Structure
-```pgsql
+```text
 data_cleaning_transform/
 │
 ├── data/
@@ -64,15 +64,10 @@ docker compose up -d
 ```
 
 🔹 2. Connect with DBeaver
-  * Host: localhost
-
-  * Port: 5432
-
-  * Database: data_cleaning_db
-
-  * User: postgres
-
-  * Password: password
+-  * Host: localhost
+-  * Port: 5432
++  - Host: localhost
++  - Port: 5432
 
 🔹 3. Import CSV into Staging Table
   * Use DBeaver's "Import Data" to load customers_raw.csv into staging.customers_raw.
@@ -93,6 +88,15 @@ docker compose up -d
 
 ✅ Deduplication:
  * Keep most recent signup for each unique name + email
+
+---
+
+## 🧪 Data Validation
+
+- ✅ Null checks on all critical fields
+- ✅ Format verification for phone and email
+- ✅ Date parsing with regex safety
+- ✅ Row count comparisons before/after deduplication
 
 ---
 
